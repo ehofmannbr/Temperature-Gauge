@@ -26,7 +26,7 @@
 ; Oscilador 8Mhz - 1uS por instrucao
 ; Saida de 1Mhz no pino 14 PORTB0 
 
-; Map TM1637 PIN1 CLK = ATMEGA328 PIN 9 PORTB 6
+; TM1637     PIN1 CLK = ATMEGA328 PIN 9 PORTB 6
 ;            PIN2 DATA = ATMEGA328 PIN 10 PORTB 7 
 ;            LED = ATMEGA328 PIN 19 PORTB 5
 
@@ -38,8 +38,6 @@
 ;           PIN 2 DATA = ATMEGA328 PIN 13 PORTD 7
 ;           PIN 3 NC
 ;           PIN 4 GND
-
-#define p_DAT 7
 
 .org 0x00
 		jmp start
