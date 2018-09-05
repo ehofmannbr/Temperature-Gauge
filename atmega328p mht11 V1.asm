@@ -39,8 +39,6 @@
 ;           PIN 3 NC
 ;           PIN 4 GND
 
-#define p_DAT 7
-
 .org 0x00
 		jmp start
 
